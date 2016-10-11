@@ -1,0 +1,239 @@
+body ,ul,li,p{margin: 0;padding: 0;}
+html,body {
+	width: 100%;
+	height: 100%;
+	font-size:12px;
+	text-shadow:1px 2px 4px rgba(0,0,0,.5);
+}
+#content {
+	width: 100%;
+	height: 100%;
+	
+}
+/*content*/
+.page1 {
+	background: url(img/bg_01.jpg);
+}
+.page2 {
+	background: url(img/2.jpg);
+}
+.page3 {
+	background: url(img/3.jpg);
+}
+.page4 {
+	background: url(img/4.jpg);
+}
+.size {
+	background-position:50% 0;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	-moz-background-size:cover;    /*老版本的firefox*/
+	
+	width: 100%;
+	height: 100%;
+	
+}
+#content .pic {
+	width:100%;
+	height:100%;
+	background-position:50% 60%;
+	background-size:40%;
+	-moz-background-size:40%;    /*老版本的firefox*/
+	background-repeat:no-repeat;
+	
+	position:absolute;
+	
+}
+
+#content .pic p {
+	font-size:48px;
+	color:#fff;
+	line-height:68px;
+	position:absolute;
+	top:5%;
+	left:21%;
+	
+}
+
+#content .page1 .pic p {
+	top:50px;
+}
+#content .pic span {
+	display:block;
+	color:#fff;
+	font-size:18px;
+	line-height:38px;
+}
+/*content end*/
+#header {
+	width:100%;
+	height:47px;
+	position:fixed;
+	top:26px;
+	
+	
+}
+/*logo*/
+.logo {
+	background:url('img/logo.png') no-repeat;
+	width:226px;
+	height:47px;
+	margin-left:60px;
+	float:left;
+}
+
+/*logo end*/
+
+/*nav*/
+.nav {
+	float:right;
+	width:438px;
+	height:30px;
+}
+.nav li {
+	float:left;
+	list-style:none;
+	margin-right:25px;
+	font-size:14px;
+	height:30px;
+	line-height:28px;
+	padding:0 14px;
+	border:1px solid transparent;
+	
+}
+.nav li a {
+	text-decoration:none;
+	color:#C2D5EB;
+}
+.nav li a:hover {
+	color:#fff;
+}
+
+
+.nav .cur {
+	border:1px solid rgba(163,196,236,.6);
+	border-radius:15px;
+	
+}
+.nav .cur  a {
+	color:#fff;
+}
+/*nav end*/
+
+/*left_nav*/
+#left_nav {
+	width: 149px;
+	height: 324px;
+	position: fixed;
+	top:50%;
+	left: 60px;
+	margin-top:-142px;
+}
+#weibo {
+	display:block;
+	width:100px;
+	height:24px;
+	line-height:24px;
+	background:url('img/weibo.png') no-repeat;
+	margin-bottom:30px;
+	padding-left:44px;
+	font-size:14px;
+	color:#dcecff;
+	text-decoration:none;
+}
+#weibo:hover{
+	color:#23DD91;
+}
+#left_nav  ul {
+	width: 100px;
+	height: 270px;
+	background:url("img/nav.png") no-repeat;
+	list-style: none;
+	padding-top:6px;
+}
+
+#left_nav  li {
+	height:21px;
+	line-height:21px;
+	padding-left:44px;
+	margin-bottom:56px;
+	color:#dcecff;
+}
+#left_nav  .active {
+	background: url('img/nav_cur.png') no-repeat;
+	color:#23DD91;
+}
+#left_nav  .video{
+	display:block;
+	width:149px;
+	height:82px;
+	line-height:82px;
+	background:url('img/video.png') no-repeat 9px 50%;
+	background-size:19%;
+	-moz-background-size:19%;     /*老版本的firefox*/
+	padding-left:77px;
+	font-size:18px;
+	color:#dcecff;
+	text-decoration:none;
+	margin-top:29px;
+}
+/*left_nav end*/
+
+/*download*/
+#download {
+	position:fixed;
+	top:122px;
+	right:60px;
+	height:379px;
+	width:200px;
+	border-top:2px solid rgba(255,255,255,.5);
+	border-bottom:2px solid rgba(255,255,255,.5);
+	background-color:rgba(255,255,255,.05);
+	background-image:url('img/ercode.png') no-repeat ;
+}
+#download .iphone {
+	text-decoration:none;
+	display:block;
+	width:100%;
+	height:26px;
+	line-height:25px;
+	background:url('img/iphone.png') no-repeat 35px 0;
+	font-size:20px;
+	color:#DCECE0;
+	margin-top:27px;
+	padding-left:63px;
+}
+#download .iphone:hover {
+	background:url('img/iphone.png') no-repeat 35px -26px;
+	color:#05C677;
+}
+#download .btn {
+	text-decoration:none;
+	display:block;
+	width:200px;
+	height:75px;
+	line-height:54px;
+	background:url('img/dl_btn.png') no-repeat center 0;
+	font-size:20px;
+	color:#DCECE0;
+	margin-top:30px;
+}
+#download .btn:hover {
+	background:url('img/dl_btn.png') no-repeat center -75px;
+}
+#download img {
+	width:100%;
+	margin-top:1px;
+}
+/*download  end*/
+
+
+
+
+
+
+
+
+
+
